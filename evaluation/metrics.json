@@ -1,0 +1,108 @@
+{
+  "context": {
+    "n_rows": 3,
+    "exact_accuracy": {
+      "evidence_standard_met": 0.667,
+      "valid_image": 1.0,
+      "issue_type": 0.667,
+      "object_part": 1.0,
+      "claim_status": 0.667,
+      "severity": 0.0
+    },
+    "set_metrics": {
+      "risk_flags": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      "supporting_image_ids": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.857,
+        "exact_match": 0.667
+      }
+    },
+    "claim_status_confusion": {
+      "supported": {
+        "supported": 2
+      },
+      "contradicted": {},
+      "not_enough_information": {
+        "supported": 1
+      }
+    },
+    "headline": {
+      "claim_status_accuracy": 0.667,
+      "evidence_standard_met_accuracy": 0.667,
+      "avg_exact_field_accuracy": 0.667,
+      "risk_flags_f1": 1.0
+    },
+    "usage": {
+      "model_calls": 0,
+      "cache_hits": 3,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "images_processed": 0,
+      "errors": 0,
+      "elapsed_seconds": 0.6,
+      "estimated_cost_usd": 0.0
+    },
+    "strategy": "context",
+    "output_csv": "/Users/kr/Downloads/hackerrank/hackerrank-orchestrate-june26-main/code/evaluation/sample_output_context.csv"
+  },
+  "two_stage": {
+    "n_rows": 3,
+    "exact_accuracy": {
+      "evidence_standard_met": 0.667,
+      "valid_image": 1.0,
+      "issue_type": 0.667,
+      "object_part": 1.0,
+      "claim_status": 0.667,
+      "severity": 0.0
+    },
+    "set_metrics": {
+      "risk_flags": {
+        "precision": 1.0,
+        "recall": 0.667,
+        "f1": 0.8,
+        "exact_match": 0.667
+      },
+      "supporting_image_ids": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": 1.0
+      }
+    },
+    "claim_status_confusion": {
+      "supported": {
+        "supported": 2
+      },
+      "contradicted": {},
+      "not_enough_information": {
+        "contradicted": 1
+      }
+    },
+    "headline": {
+      "claim_status_accuracy": 0.667,
+      "evidence_standard_met_accuracy": 0.667,
+      "avg_exact_field_accuracy": 0.667,
+      "risk_flags_f1": 0.8
+    },
+    "usage": {
+      "model_calls": 0,
+      "cache_hits": 3,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "images_processed": 0,
+      "errors": 0,
+      "elapsed_seconds": 0.0,
+      "estimated_cost_usd": 0.0
+    },
+    "strategy": "two_stage",
+    "output_csv": "/Users/kr/Downloads/hackerrank/hackerrank-orchestrate-june26-main/code/evaluation/sample_output_two_stage.csv"
+  }
+}
